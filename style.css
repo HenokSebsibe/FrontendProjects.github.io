@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: linear-gradient(to right, #0052cc, #1e90ff);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.peter{
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.details{
+    width:800px;
+    margin:40px auto;
+    text-align:left;
+}
+.details h2{
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+table {
+  width: 80%;             /* stretch table to container */
+  border-collapse: collapse; /* merge borders for single lines */
+}
+
+table th{
+    background-color: #1e90ff;
+}
+th, td {
+  border: 1px solid #333;  /* dark lines for cells */
+  padding: 8px;             /* space inside cells */
+  text-align: left;          /* align text left */
+}
+
+footer{
+    background: linear-gradient(to right, #0052cc, #1e90ff);
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
